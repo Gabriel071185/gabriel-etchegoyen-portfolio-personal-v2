@@ -252,6 +252,7 @@
   hamburger.classList.toggle('open');
   mobileMenu.classList.toggle('open');
   document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+  document.body.style.height = mobileMenu.classList.contains('open') ? '100vh' : '';
 });
 
     document.querySelectorAll('.mobile-link, .mobile-menu .nav-cta').forEach(link => {

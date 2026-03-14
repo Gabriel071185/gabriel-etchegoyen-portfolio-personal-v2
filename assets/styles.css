@@ -823,27 +823,17 @@
     .reveal:nth-child(3) { animation-delay: .19s; }
     .reveal:nth-child(4) { animation-delay: .26s; }
 
-    /* ── RESPONSIVE ── */
-     /* @media (max-width: 900px) {
-      nav { padding: 1rem 1.5rem; }
-      nav ul { display: none; }
-      
-      #hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 3rem; }
-      .about-grid { grid-template-columns: 1fr; gap: 2rem; }
-      .skills-bars-grid, .skills-levels-grid, .formacion-grid { grid-template-columns: 1fr; }
-      section { padding: 4rem 1.5rem; }
-      footer { flex-direction: column; gap: .8rem; text-align: center; }
-    }  */
+    
 
     /* ══════════════════════════════════════
        HAMBURGUESA
-    ══════════════════════════════════════ */
+    */
     .hamburger {
       display: none;
       flex-direction: column;
       justify-content: center;
       gap: 5px;
-      width: 36px; height: 36px;
+      width: 30px; height: 23px;
       background: none;
       border: none;
       cursor: pointer;
